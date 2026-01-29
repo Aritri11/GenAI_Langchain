@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please summarize the research paper titled \"{paper_input}\" with the following specifications:\nExplanation style: {style_input}\nExplanation length: {length_input}\n1. Problem Statement\n2. Motivation and Background\n3. Methodology\n4. Key Results\n5. Contributions\n6. Limitations (if mentioned)\n7. Future Work (if mentioned)\n\nRules:\n- Be concise but informative\n- Do not add information not present in the paper\n- Use bullet points where appropriate\n- Maintain an academic tone",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
