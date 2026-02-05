@@ -1,5 +1,5 @@
 Simple Chain
-The most basic chain:
+The most basic chain
 One input → One LLM call → One output
 
 
