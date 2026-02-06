@@ -130,7 +130,7 @@ Agent executors that decide which tool to call.
 Multi-step reasoning with intermediate tool calls.
 
 
-Prerequisites
+Prerequisites:
 Python 3.x
 
 LangChain and relevant LLM/embedding/vector-store dependencies (OpenAI, local models, etc.).
@@ -138,6 +138,7 @@ LangChain and relevant LLM/embedding/vector-store dependencies (OpenAI, local mo
 
 Install typical dependencies with:
 
-bash
+```text
 pip install -r requirements.txt
+```
 (if present; otherwise install langchain and the provider libraries you use).
