@@ -142,3 +142,6 @@ Install typical dependencies with:
 pip install -r requirements.txt
 ```
 (if present; otherwise install langchain and the provider libraries you use).
+
+
+LangChain documentation: https://docs.langchain.com/oss/python/langchain/overview
